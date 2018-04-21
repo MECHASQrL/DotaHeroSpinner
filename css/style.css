@@ -1,0 +1,42 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+	font-family: 'Courier', sans-serif;
+	color: #ffffff;
+}
+
+canvas {
+	border: black solid 1px;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.button {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c93c3c;
+}
+
+.button:disabled {
+	background-color: #666666;
+}
+
+#SpinnerCanvas {
+	text-align: center;
+	margin: 0 auto;
+}
+
